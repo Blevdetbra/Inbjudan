@@ -96,7 +96,7 @@
       display: grid;
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
-      gap: 10px;
+      gap: 14px;
       margin: 4px auto 22px;
       max-width: 310px;
       font-style: italic;
@@ -105,9 +105,18 @@
 
     .initial {
       font-family: "Edwardian Script ITC", "Bickham Script Pro", "Snell Roundhand", "Segoe Script", cursive;
+      display: inline-block;
       font-size: clamp(56px, 14vw, 90px);
       line-height: 0.75;
       font-weight: 400;
+    }
+
+    .second-initial {
+      transform: translate(-16px, -2px);
+    }
+
+    .first-initial {
+      transform: translate(-22px, -2px);
     }
 
     .amp {
@@ -167,7 +176,7 @@
       gap: 14px;
       margin: 0 auto 20px;
       max-width: 420px;
-      font-size: clamp(14px, 3.4vw, 17px);
+      font-size: clamp(16px, 3.8vw, 19px);
       font-weight: 400;
       line-height: 1.42;
     }
@@ -322,9 +331,9 @@
     <div class="scene" aria-label="Brollopsinbjudan for Adam och Anna">
       <article class="invitation">
         <div class="monogram" aria-hidden="true">
-          <span class="initial">A</span>
+          <span class="initial first-initial">A</span>
           <span class="amp">&amp;</span>
-          <span class="initial">A</span>
+          <span class="initial second-initial">A</span>
         </div>
 
         <p class="families">
@@ -379,7 +388,7 @@
 
         <p class="contact">
           <br>
-          076-xxx xx xx
+          076 060 09 75
         </p>
 
         <p class="fineprint">
